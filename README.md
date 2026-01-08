@@ -3,7 +3,7 @@
 > **A Deep Learning application that visualizes audio feature extraction in real-time.**
 > *Upload a WAV file to see the inner workings of a Convolutional Neural Network (CNN) as it classifies audio events.*
 
-![Dashboard](./ProjectImages/Screenshot%202026-01-08%20084155.png)
+![Dashboard](./ProjectImages/Screenshot%202026-01-08%20095325.png)
 *(A visualization of the dashboard showing spectrograms, waveforms, and neural network layers)*
 
 ---
@@ -22,7 +22,7 @@
 
 ---
 
-## 🚀 About the Project
+## About the Project
 
 This application is an interactive educational tool designed to demystify **Deep Learning** for audio. Instead of just giving you a prediction (e.g., "This sound is a Dog barking"), it visualizes the **intermediate layers** of the neural network.
 
@@ -34,7 +34,7 @@ Users can upload a `.wav` file, and the system renders:
 
 ---
 
-## 💡 Why I Built This
+## Why I Built This
 
 As a Computer Science student and AI enthusiast, I realized that while many people use Neural Networks, few understand what happens *inside* the "black box."
 
@@ -45,7 +45,7 @@ I built this project to:
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 ### **Frontend**
 * **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
@@ -67,7 +67,7 @@ I built this project to:
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 ### The Backend & AI Model
 The core of the analysis happens on a **serverless GPU container** hosted on Modal.
@@ -89,7 +89,7 @@ The core of the analysis happens on a **serverless GPU container** hosted on Mod
 
 ---
 
-## 📊 AI Model Performance
+## AI Model Performance
 
 The model was trained on the **ESC-50 Dataset** (Environmental Sound Classification) for 100 Epochs. The training logs show a steady convergence with a final validation accuracy of **~83.25%**.
 
@@ -112,7 +112,7 @@ The model was trained on the **ESC-50 Dataset** (Environmental Sound Classificat
 
 ---
 
-## 📸 App Showcase (Screenshots)
+## App Showcase (Screenshots)
 
 ### 1. Security & Authentication
 *Secure login system powered by Clerk.*
@@ -120,7 +120,7 @@ The model was trained on the **ESC-50 Dataset** (Environmental Sound Classificat
 
 ### 2. The Dashboard
 *A Neon-inspired interface ready for file upload.*
-![Dashboard](./ProjectImages/Screenshot%202026-01-08%20084155.png)
+![Dashboard](./ProjectImages/Screenshot%202026-01-08%20095401.png)
 
 ### 3. Audio Analysis
 *Visualizing the Input Spectrogram (Left) and Waveform (Right).*
@@ -134,13 +134,12 @@ The model was trained on the **ESC-50 Dataset** (Environmental Sound Classificat
 *Visualizing the activation maps inside the CNN layers.*
 ![Architecture](./ProjectImages/Screenshot%202026-01-08%20084514.png)
 
-### 6. History Sidebar
-*Keeps track of previous analysis runs.*
+### 6. History Sidebar *Keeps track of previous analysis runs.*
 ![Sidebar](./ProjectImages/Screenshot%202026-01-08%20084419.png)
 
 ---
 
-## 🛠 How to Run Locally
+## How to Run Locally
 
 Follow these steps to install and set up the project.
 
